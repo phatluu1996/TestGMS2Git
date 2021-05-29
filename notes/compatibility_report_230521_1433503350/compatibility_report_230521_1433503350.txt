@@ -1,0 +1,1044 @@
+Converting GML script: ${project_dir}\scripts\scr_player_camera\scr_player_camera.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] = x - camera_w/2 -> __view_set( e__VW.XView, 0, x - camera_w/2 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] = y - camera_h/2 -> __view_set( e__VW.YView, 0, y - camera_h/2 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_replace_color\scr_replace_color.gml
+Converted description /// @description  sprite_replace_color(sprite,oldcolor,newcolor)/// @param sprite
+/// @param oldcolor
+/// @param newcolor
+
+Converting GML script: ${project_dir}\scripts\keyboard_str\keyboard_str.gml
+Converted description /// @description string_keycheck(key);/// @param key
+
+Converting GML script: ${project_dir}\scripts\EnemyWeaponsInit\EnemyWeaponsInit.gml
+Converted description /// @description  Enemy Weapons Init Variables
+
+Converting GML script: ${project_dir}\scripts\EnemySearchPlayer\EnemySearchPlayer.gml
+Converted description /// @description  Check which is the closest player instance if there are more than 1
+
+Converting GML script: ${project_dir}\scripts\EnemyDeath\EnemyDeath.gml
+Converted description /// @description  What to do when life reaches 0
+
+Converting GML script: ${project_dir}\scripts\EnemyDamageEvent\EnemyDamageEvent.gml
+Converted description /// @description  Immunity Activity after taking damage
+
+Converting GML script: ${project_dir}\scripts\EnemyGravity\EnemyGravity.gml
+Converted description /// @description  Gravity
+
+Converting GML script: ${project_dir}\scripts\EnemyJump\EnemyJump.gml
+Converted description /// @description  Jump Script
+
+Converting GML script: ${project_dir}\scripts\EnemyStartAtack\EnemyStartAtack.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\scripts\BossDamageEvent\BossDamageEvent.gml
+Converted description /// @description  IMUNIDADE APOS RECEBER DANO CORRIGIDO 26/03/2021
+
+Converting GML script: ${project_dir}\scripts\create_moving_instance\create_moving_instance.gml
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\scripts\create_moving_instance\create_moving_instance.gml - 3: unexpected syntax error
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\scripts\create_moving_instance\create_moving_instance.gml - 3: malformed variable reference got new
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\scripts\create_moving_instance\create_moving_instance.gml - 3: unexpected terminal operator new
+Too many errors - GML not processed : ${project_dir}\scripts\create_moving_instance\create_moving_instance.gml
+
+Converting GML script: ${project_dir}\scripts\drawOldHealthBar\drawOldHealthBar.gml
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\scripts\drawNewHealthBar\drawNewHealthBar.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\h_outside\h_outside.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\scripts\v_outside\v_outside.gml
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\draw_font_general\draw_font_general.gml
+Converted string - line 22: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\init_KeysLoad\init_KeysLoad.gml
+Converted string - line 1: 'keyconfig.ini' -> "keyconfig.ini"
+Converted string - line 4: 'CONTROL1' -> "CONTROL1"
+Converted string - line 4: 'LEFT' -> "LEFT"
+Converted string - line 5: 'CONTROL1' -> "CONTROL1"
+Converted string - line 5: 'RIGHT' -> "RIGHT"
+Converted string - line 6: 'CONTROL1' -> "CONTROL1"
+Converted string - line 6: 'DOWN' -> "DOWN"
+Converted string - line 7: 'CONTROL1' -> "CONTROL1"
+Converted string - line 7: 'UP' -> "UP"
+Converted string - line 8: 'CONTROL1' -> "CONTROL1"
+Converted string - line 8: 'JUMP' -> "JUMP"
+Converted string - line 8: 'X' -> "X"
+Converted string - line 9: 'CONTROL1' -> "CONTROL1"
+Converted string - line 9: 'DASH' -> "DASH"
+Converted string - line 9: 'Z' -> "Z"
+Converted string - line 10: 'CONTROL1' -> "CONTROL1"
+Converted string - line 10: 'SHOOT' -> "SHOOT"
+Converted string - line 10: 'C' -> "C"
+Converted string - line 11: 'CONTROL1' -> "CONTROL1"
+Converted string - line 11: 'ESPECIAL' -> "ESPECIAL"
+Converted string - line 11: 'V' -> "V"
+Converted string - line 12: 'CONTROL1' -> "CONTROL1"
+Converted string - line 12: 'GIGAATACK' -> "GIGAATACK"
+Converted string - line 12: 'F' -> "F"
+Converted string - line 13: 'CONTROL1' -> "CONTROL1"
+Converted string - line 13: 'PREVIOUS' -> "PREVIOUS"
+Converted string - line 13: 'A' -> "A"
+Converted string - line 14: 'CONTROL1' -> "CONTROL1"
+Converted string - line 14: 'NEXT' -> "NEXT"
+Converted string - line 14: 'S' -> "S"
+Converted string - line 15: 'CONTROL1' -> "CONTROL1"
+Converted string - line 15: 'START' -> "START"
+Converted string - line 18: 'CONTROL2' -> "CONTROL2"
+Converted string - line 18: 'LEFT' -> "LEFT"
+Converted string - line 18: 'I' -> "I"
+Converted string - line 19: 'CONTROL2' -> "CONTROL2"
+Converted string - line 19: 'RIGHT' -> "RIGHT"
+Converted string - line 19: 'P' -> "P"
+Converted string - line 20: 'CONTROL2' -> "CONTROL2"
+Converted string - line 20: 'DOWN' -> "DOWN"
+Converted string - line 20: 'L' -> "L"
+Converted string - line 21: 'CONTROL2' -> "CONTROL2"
+Converted string - line 21: 'UP' -> "UP"
+Converted string - line 21: 'O' -> "O"
+Converted string - line 22: 'CONTROL2' -> "CONTROL2"
+Converted string - line 22: 'JUMP' -> "JUMP"
+Converted string - line 22: 'B' -> "B"
+Converted string - line 23: 'CONTROL2' -> "CONTROL2"
+Converted string - line 23: 'DASH' -> "DASH"
+Converted string - line 23: 'T' -> "T"
+Converted string - line 24: 'CONTROL2' -> "CONTROL2"
+Converted string - line 24: 'SHOOT' -> "SHOOT"
+Converted string - line 24: 'M' -> "M"
+Converted string - line 25: 'CONTROL2' -> "CONTROL2"
+Converted string - line 25: 'ESPECIAL' -> "ESPECIAL"
+Converted string - line 25: 'U' -> "U"
+Converted string - line 26: 'CONTROL2' -> "CONTROL2"
+Converted string - line 26: 'GIGAATACK' -> "GIGAATACK"
+Converted string - line 26: 'H' -> "H"
+Converted string - line 27: 'CONTROL2' -> "CONTROL2"
+Converted string - line 27: 'PREVIOUS' -> "PREVIOUS"
+Converted string - line 27: 'G' -> "G"
+Converted string - line 28: 'CONTROL2' -> "CONTROL2"
+Converted string - line 28: 'NEXT' -> "NEXT"
+Converted string - line 28: 'J' -> "J"
+Converted string - line 29: 'CONTROL2' -> "CONTROL2"
+Converted string - line 29: 'START' -> "START"
+
+Converting GML script: ${project_dir}\scripts\init_KeysSave\init_KeysSave.gml
+Converted string - line 1: 'keyconfig.ini' -> "keyconfig.ini"
+Converted string - line 8: 'X' -> "X"
+Converted string - line 9: 'Z' -> "Z"
+Converted string - line 10: 'C' -> "C"
+Converted string - line 11: 'V' -> "V"
+Converted string - line 12: 'F' -> "F"
+Converted string - line 13: 'A' -> "A"
+Converted string - line 14: 'S' -> "S"
+Converted string - line 17: 'I' -> "I"
+Converted string - line 18: 'P' -> "P"
+Converted string - line 19: 'L' -> "L"
+Converted string - line 20: 'O' -> "O"
+Converted string - line 21: 'B' -> "B"
+Converted string - line 22: 'T' -> "T"
+Converted string - line 23: 'M' -> "M"
+Converted string - line 24: 'U' -> "U"
+Converted string - line 25: 'H' -> "H"
+Converted string - line 26: 'G' -> "G"
+Converted string - line 27: 'J' -> "J"
+
+Converting GML script: ${project_dir}\objects\objPrtEnemy\Create_0.gml
+Converted description /// @description  NOTES ::::
+
+Converting GML script: ${project_dir}\objects\objPrtBuster1\Create_0.gml
+Converted description /// @description  NOTES :::::
+
+Converting GML script: ${project_dir}\objects\obj_skyclaw\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_megaturtoid2\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_megaturtoid1\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_hoganmer\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_dodgeblaster_l\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_dodgeblaster_r\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_seaattacker_bubbles\Step_0.gml
+Converted description /// @description  Sea Attacker Bubbles (Bolhas do Cavalo Marinho)/// @param Bolhas do Cavalo Marinho
+
+Converting GML script: ${project_dir}\objects\obj_seaattacker\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_sinefaller\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_flammingle\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_lumberjack\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_lumberjack_disc\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_lumberjack_disc\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\lumber_disc1\Step_0.gml
+Converted description /// @description  EXPLOSAO
+
+Converting GML script: ${project_dir}\objects\lumber_disc2\Step_0.gml
+Converted description /// @description  Explosion
+
+Converting GML script: ${project_dir}\objects\obj_madpecker\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_bombbeen\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_gunvolt\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objRockEnemy\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objRockEnemy\Step_0.gml
+Converted builtin - line 45: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_metcolo\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_metcolo\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_tornadoboy\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_tornadoboy\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_sonicdog1\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_sonicdog1\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_sonicdog2\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_sonicdog2\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_rollinggabyool\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_rollinggabyool\Collision_36047880-771a-4843-8151-fb3d8bf9213a.gml
+Converted description /// @description  ESSE INIMIGO NAO LEVA DANO ELE APENAS DESTROI O TIRO
+
+Converting GML script: ${project_dir}\objects\obj_ball_de_voux\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_ball_de_voux\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_fixed_robot\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_fixed_robot\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_flamecannon\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_flamecannon\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_amenhopper\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_amenhopper\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_raybit\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_raybit\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_snowshooter\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_snowshooter\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_butterfly\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_butterfly\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_rider\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_rider\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_mettool\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_mettool\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_mettool\Collision_3fd12020-743e-4efe-b707-23cd36842a7d.gml
+Converted description /// @description  METTOOL Damage Revised
+
+Converting GML script: ${project_dir}\objects\obj_eggcreeper\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_eggcreeper\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_creeper\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_creeper\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_falling_iworm\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_falling_iworm\Destroy_0.gml
+Converted description /// @description  Destroy Event Corrigido 23/03/2021
+
+Converting GML script: ${project_dir}\objects\obj_iworm\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_iworm\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_planty\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_minero\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_minero\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_bird\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_bird\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_slidecannon\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_slidecannon\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_jamminger\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_jamminger\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_jamminger\Other_40.gml
+Converted description /// @description  OUTSIDE VIEW - RETORNAR
+
+Converting GML script: ${project_dir}\objects\obj_ladderyadder\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_ladderyadder\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_cannon\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_cannon\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_cannonturn\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_cannonturn\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_cannonturn_up\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_cannonturn_up\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_bat_big\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_bat_big\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_bat_big\Other_40.gml
+Converted description /// @description  OUTSIDE VIEW - RETORNAR
+
+Converting GML script: ${project_dir}\objects\obj_bat\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_bat\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_bat\Other_40.gml
+Converted description /// @description  OUTSIDE VIEW - RETORNAR
+
+Converting GML script: ${project_dir}\objects\obj_fallinglava\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_fallinglava\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_crusher\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_crusher\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_crusher\Collision_a151a50d-255c-4d9b-a811-a70aa30b2d2c.gml
+Converted description /// @description  CRUSHER COLISAO COM ARM PADRE
+
+Converting GML script: ${project_dir}\objects\obj_tombot\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_tombot\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_spiky\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_spiky\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_roadattacker\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_roadattacker\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_harpoon_serpent\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_harpoon_serpent\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_harpoon_serpent\Step_0.gml
+Converted string - line 20: 'left_to_down' -> "left_to_down"
+Converted string - line 23: 'down' -> "down"
+Converted string - line 26: 'down_to_left' -> "down_to_left"
+Converted string - line 29: 'left' -> "left"
+Converted string - line 32: 'up_to_left' -> "up_to_left"
+Converted string - line 35: 'left' -> "left"
+Converted string - line 38: 'left_to_up' -> "left_to_up"
+Converted string - line 41: 'up' -> "up"
+Converted string - line 44: 'up' -> "up"
+Converted string - line 47: 'up' -> "up"
+Converted string - line 47: 'up_to_left' -> "up_to_left"
+Converted string - line 50: 'down' -> "down"
+Converted string - line 53: 'down' -> "down"
+Converted string - line 53: 'down_to_left' -> "down_to_left"
+Converted string - line 56: 'left' -> "left"
+Converted string - line 61: 'left_to_up' -> "left_to_up"
+Converted string - line 61: 'left' -> "left"
+Converted string - line 61: 'left_to_down' -> "left_to_down"
+
+Converting GML script: ${project_dir}\objects\objLaserShoot\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objLaserShoot\Collision_bf40c0c6-cff6-4647-a553-72b4ed60a163.gml
+Converted description /// @description  Damage Revised
+
+Converting GML script: ${project_dir}\objects\obj_shark\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_shark\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_wheelhog\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_wheelhog\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_jellyfish\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_jellyfish\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_joy\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_joy\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_scriver\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_scriver\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_notorbanger\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_notorbanger\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_iceguy\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_iceguy\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_tankcar\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_tankcar\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_iceman\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_iceman\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_gunshot\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_gunshot\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_headgunner_customer\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_headgunner_customer\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_gunshot_shot\Step_0.gml
+Converted description /// @description  fumaca
+
+Converting GML script: ${project_dir}\objects\obj_alien\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_alien\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\objSpinwall\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objSpinwall\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_gulpfer\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objBit\Draw_0.gml
+Converted description /// @description  Draw Sprite And Health Bar
+
+Converting GML script: ${project_dir}\objects\objZeroBoss\Draw_0.gml
+Converted description /// @description  Draw Sprite And Health Bar
+
+Converting GML script: ${project_dir}\objects\objChillIce3\Destroy_0.gml
+Converted description /// @description  CRIA AS PEDRAS DE GELO
+
+Converting GML script: ${project_dir}\objects\objChillSnow\Collision_61cb97ae-b0e6-4958-a73e-9641e9be3804.gml
+Converted description /// @description  CORRIGIDO 26/03/2021
+
+Converting GML script: ${project_dir}\objects\objChillPenguin\Step_0.gml
+Converted builtin - line 76: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 77: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 77: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 77: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description  PATH
+
+Converting GML script: ${project_dir}\objects\objChillPenguin\Collision_97fed30c-5900-4901-a2b7-eb7964429b6d.gml
+Converted description /// @description  Jump to Swaying
+
+Converting GML script: ${project_dir}\objects\objChillPenguin\Draw_0.gml
+Converted description /// @description  Draw Sprite And Health Bar
+
+Converting GML script: ${project_dir}\objects\objArmoredArmadillo\Draw_0.gml
+Converted description /// @description  Draw Sprite And Health Bar
+
+Converting GML script: ${project_dir}\objects\obj_hf_storm_vert\Create_0.gml
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objStormEagleDiveAtkR\Create_0.gml
+Converted description /// @description  INACTIVE, IMUNIDADE E PODER 26/03/2021
+
+Converting GML script: ${project_dir}\objects\objStormEagleDiveAtkL\Create_0.gml
+Converted description /// @description  INACTIVE, IMUNIDADE E PODER 26/03/2021
+
+Converting GML script: ${project_dir}\objects\obj_hf_ovo\Create_0.gml
+Converted description /// @description  Enemies Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_hf_birds\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_hf_birds\Destroy_0.gml
+Converted description /// @description  Destroy Event Revised
+
+Converting GML script: ${project_dir}\objects\obj_hf_birds\Alarm_0.gml
+Converted description /// @description  ATUALIZA A POSICAO DO PLAYER
+
+Converting GML script: ${project_dir}\objects\objStormEagle\Step_0.gml
+Converted builtin - line 121: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 122: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 125: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 126: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 121: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 122: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 125: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 126: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objStormEagle\Draw_0.gml
+Converted description /// @description  Draw Sprite And Health Bar
+
+Converting GML script: ${project_dir}\objects\obj_moleborer\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\sub_hunteracid\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\sub_hunteracid\Collision_0fdd755a-f475-41dd-be82-17c986ceb825.gml
+Converted description /// @description  Damage Revised
+
+Converting GML script: ${project_dir}\objects\dead_brillo_boss\Step_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_sub_rt_55\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_sub_rt_55\Collision_a1c7699d-fe85-4bac-876b-33e5c0f40ffa.gml
+Converted description /// @description  Damage Revised
+
+Converting GML script: ${project_dir}\objects\obj_madgrinder\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\obj_beeblader\Create_0.gml
+Converted description /// @description  Enemy Init Variables
+
+Converting GML script: ${project_dir}\objects\objCruiziler\Create_0.gml
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\objects\objCruiziler\Create_0.gml - 6: unexpected syntax error
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\objects\objCruiziler\Create_0.gml - 6: malformed variable reference got new
+ERROR: C:\Users\HGM\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\MgmXDarkWorld_58EF2131\objects\objCruiziler\Create_0.gml - 6: unexpected terminal operator new
+Too many errors - GML not processed : ${project_dir}\objects\objCruiziler\Create_0.gml
+
+Converting GML script: ${project_dir}\objects\objCruiziler\Step_0.gml
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\objCruiziler\Collision_35f9bf5c-e902-4337-882c-ae5717b7fae2.gml
+Converted description /// @description  Damage Revised
+
+Converting GML script: ${project_dir}\objects\objEnemyExpl1\Other_7.gml
+Converted description /// @description  ITEM MODIFIER [DESATIVADO]
+
+Converting GML script: ${project_dir}\objects\objWaterTornado\Step_0.gml
+Converted description /// @description  STEP EVENT
+
+Converting GML script: ${project_dir}\objects\objSmoke\Create_0.gml
+Converted description /// @description  How to use
+
+Converting GML script: ${project_dir}\objects\objDebug\Create_0.gml
+Converted description /// @description  FULL SCREEN
+
+Converting GML script: ${project_dir}\objects\objDebug\Step_0.gml
+Converted description /// @description  F4 FULLSCREEN
+
+Converting GML script: ${project_dir}\objects\objRoomControl\Create_0.gml
+Converted description /// @description  'MEGAMAN X DARKWORLD - DEVs MAYKONPALADINO && SUMMERLEAF'
+Converted string - line 2: 'MEGAMAN X DARKWORLD - DEVs MAYKONPALADINO && SUMMERLEAF' -> "MEGAMAN X DARKWORLD - DEVs MAYKONPALADINO && SUMMERLEAF"
+
+Converting GML script: ${project_dir}\objects\objPauseController\Create_0.gml
+Converted string - line 3: 'x-buster' -> "x-buster"
+
+Converting GML script: ${project_dir}\objects\objPauseController\Step_0.gml
+Converted description /// @description  Visible
+Converted string - line 9: 'x-buster' -> "x-buster"
+Converted string - line 93: 'weaponTank1' -> "weaponTank1"
+Converted string - line 94: 'weaponTank2' -> "weaponTank2"
+Converted string - line 96: 'subTank1' -> "subTank1"
+Converted string - line 97: 'subTank2' -> "subTank2"
+Converted string - line 98: 'subTank3' -> "subTank3"
+Converted string - line 99: 'subTank4' -> "subTank4"
+Converted string - line 101: 'x-buster' -> "x-buster"
+Converted string - line 102: 'weapon1' -> "weapon1"
+Converted string - line 103: 'weapon2' -> "weapon2"
+Converted string - line 104: 'weapon3' -> "weapon3"
+Converted string - line 105: 'weapon4' -> "weapon4"
+Converted string - line 106: 'weapon5' -> "weapon5"
+Converted string - line 107: 'weapon6' -> "weapon6"
+Converted string - line 108: 'weapon7' -> "weapon7"
+Converted string - line 109: 'weapon8' -> "weapon8"
+Converted string - line 126: 'x-buster' -> "x-buster"
+Converted string - line 126: 'exit' -> "exit"
+Converted string - line 127: 'weapon1' -> "weapon1"
+Converted string - line 127: 'x-buster' -> "x-buster"
+Converted string - line 128: 'weapon2' -> "weapon2"
+Converted string - line 128: 'weapon1' -> "weapon1"
+Converted string - line 128: 'weapon0' -> "weapon0"
+Converted string - line 129: 'weapon3' -> "weapon3"
+Converted string - line 129: 'weapon2' -> "weapon2"
+Converted string - line 129: 'weapon1' -> "weapon1"
+Converted string - line 129: 'weapon0' -> "weapon0"
+Converted string - line 130: 'weapon4' -> "weapon4"
+Converted string - line 130: 'weapon3' -> "weapon3"
+Converted string - line 130: 'weapon2' -> "weapon2"
+Converted string - line 130: 'weapon1' -> "weapon1"
+Converted string - line 130: 'weapon0' -> "weapon0"
+Converted string - line 131: 'weapon5' -> "weapon5"
+Converted string - line 131: 'weapon4' -> "weapon4"
+Converted string - line 131: 'weapon3' -> "weapon3"
+Converted string - line 131: 'weapon2' -> "weapon2"
+Converted string - line 131: 'weapon1' -> "weapon1"
+Converted string - line 131: 'weapon0' -> "weapon0"
+Converted string - line 132: 'weapon6' -> "weapon6"
+Converted string - line 132: 'weapon5' -> "weapon5"
+Converted string - line 132: 'weapon4' -> "weapon4"
+Converted string - line 132: 'weapon3' -> "weapon3"
+Converted string - line 132: 'weapon2' -> "weapon2"
+Converted string - line 132: 'weapon1' -> "weapon1"
+Converted string - line 132: 'weapon0' -> "weapon0"
+Converted string - line 133: 'weapon7' -> "weapon7"
+Converted string - line 133: 'weapon6' -> "weapon6"
+Converted string - line 133: 'weapon5' -> "weapon5"
+Converted string - line 133: 'weapon4' -> "weapon4"
+Converted string - line 133: 'weapon3' -> "weapon3"
+Converted string - line 133: 'weapon2' -> "weapon2"
+Converted string - line 133: 'weapon1' -> "weapon1"
+Converted string - line 133: 'weapon0' -> "weapon0"
+Converted string - line 134: 'weapon8' -> "weapon8"
+Converted string - line 134: 'weapon7' -> "weapon7"
+Converted string - line 134: 'weapon6' -> "weapon6"
+Converted string - line 134: 'weapon5' -> "weapon5"
+Converted string - line 134: 'weapon4' -> "weapon4"
+Converted string - line 134: 'weapon3' -> "weapon3"
+Converted string - line 134: 'weapon2' -> "weapon2"
+Converted string - line 134: 'weapon1' -> "weapon1"
+Converted string - line 134: 'weapon0' -> "weapon0"
+Converted string - line 135: 'exit' -> "exit"
+Converted string - line 135: 'weapon8' -> "weapon8"
+Converted string - line 135: 'weapon7' -> "weapon7"
+Converted string - line 135: 'weapon6' -> "weapon6"
+Converted string - line 135: 'weapon5' -> "weapon5"
+Converted string - line 135: 'weapon4' -> "weapon4"
+Converted string - line 135: 'weapon3' -> "weapon3"
+Converted string - line 135: 'weapon2' -> "weapon2"
+Converted string - line 135: 'weapon1' -> "weapon1"
+Converted string - line 135: 'weapon0' -> "weapon0"
+Converted string - line 136: 'subTank1' -> "subTank1"
+Converted string - line 137: 'subTank2' -> "subTank2"
+Converted string - line 138: 'subTank3' -> "subTank3"
+Converted string - line 139: 'subTank4' -> "subTank4"
+Converted string - line 140: 'weaponTank1' -> "weaponTank1"
+Converted string - line 141: 'weaponTank2' -> "weaponTank2"
+Converted string - line 147: 'x-buster' -> "x-buster"
+Converted string - line 147: 'weapon1' -> "weapon1"
+Converted string - line 147: 'weapon2' -> "weapon2"
+Converted string - line 147: 'weapon3' -> "weapon3"
+Converted string - line 147: 'weapon4' -> "weapon4"
+Converted string - line 147: 'weapon5' -> "weapon5"
+Converted string - line 147: 'weapon6' -> "weapon6"
+Converted string - line 147: 'weapon7' -> "weapon7"
+Converted string - line 147: 'weapon8' -> "weapon8"
+Converted string - line 147: 'exit' -> "exit"
+Converted string - line 148: 'weapon1' -> "weapon1"
+Converted string - line 148: 'weapon2' -> "weapon2"
+Converted string - line 148: 'weapon3' -> "weapon3"
+Converted string - line 148: 'weapon4' -> "weapon4"
+Converted string - line 148: 'weapon5' -> "weapon5"
+Converted string - line 148: 'weapon6' -> "weapon6"
+Converted string - line 148: 'weapon7' -> "weapon7"
+Converted string - line 148: 'weapon8' -> "weapon8"
+Converted string - line 148: 'exit' -> "exit"
+Converted string - line 149: 'weapon2' -> "weapon2"
+Converted string - line 149: 'weapon3' -> "weapon3"
+Converted string - line 149: 'weapon4' -> "weapon4"
+Converted string - line 149: 'weapon5' -> "weapon5"
+Converted string - line 149: 'weapon6' -> "weapon6"
+Converted string - line 149: 'weapon7' -> "weapon7"
+Converted string - line 149: 'weapon8' -> "weapon8"
+Converted string - line 149: 'exit' -> "exit"
+Converted string - line 150: 'weapon3' -> "weapon3"
+Converted string - line 150: 'weapon4' -> "weapon4"
+Converted string - line 150: 'weapon5' -> "weapon5"
+Converted string - line 150: 'weapon6' -> "weapon6"
+Converted string - line 150: 'weapon7' -> "weapon7"
+Converted string - line 150: 'weapon8' -> "weapon8"
+Converted string - line 150: 'exit' -> "exit"
+Converted string - line 151: 'weapon4' -> "weapon4"
+Converted string - line 151: 'weapon5' -> "weapon5"
+Converted string - line 151: 'weapon6' -> "weapon6"
+Converted string - line 151: 'weapon7' -> "weapon7"
+Converted string - line 151: 'weapon8' -> "weapon8"
+Converted string - line 151: 'exit' -> "exit"
+Converted string - line 152: 'weapon5' -> "weapon5"
+Converted string - line 152: 'weapon6' -> "weapon6"
+Converted string - line 152: 'weapon7' -> "weapon7"
+Converted string - line 152: 'weapon8' -> "weapon8"
+Converted string - line 152: 'exit' -> "exit"
+Converted string - line 153: 'weapon6' -> "weapon6"
+Converted string - line 153: 'weapon7' -> "weapon7"
+Converted string - line 153: 'weapon8' -> "weapon8"
+Converted string - line 153: 'exit' -> "exit"
+Converted string - line 154: 'weapon7' -> "weapon7"
+Converted string - line 154: 'weapon8' -> "weapon8"
+Converted string - line 154: 'exit' -> "exit"
+Converted string - line 155: 'weapon8' -> "weapon8"
+Converted string - line 155: 'exit' -> "exit"
+Converted string - line 156: 'exit' -> "exit"
+Converted string - line 156: 'x-buster' -> "x-buster"
+Converted string - line 157: 'subTank1' -> "subTank1"
+Converted string - line 158: 'subTank2' -> "subTank2"
+Converted string - line 159: 'subTank3' -> "subTank3"
+Converted string - line 160: 'subTank4' -> "subTank4"
+Converted string - line 161: 'weaponTank1' -> "weaponTank1"
+Converted string - line 162: 'weaponTank2' -> "weaponTank2"
+Converted string - line 168: 'x-buster' -> "x-buster"
+Converted string - line 168: 'subTank1' -> "subTank1"
+Converted string - line 169: 'weapon1' -> "weapon1"
+Converted string - line 169: 'subTank1' -> "subTank1"
+Converted string - line 169: 'weaponTank1' -> "weaponTank1"
+Converted string - line 170: 'weapon2' -> "weapon2"
+Converted string - line 170: 'subTank1' -> "subTank1"
+Converted string - line 170: 'weaponTank1' -> "weaponTank1"
+Converted string - line 171: 'weapon3' -> "weapon3"
+Converted string - line 171: 'subTank1' -> "subTank1"
+Converted string - line 171: 'weaponTank1' -> "weaponTank1"
+Converted string - line 172: 'weapon4' -> "weapon4"
+Converted string - line 172: 'subTank1' -> "subTank1"
+Converted string - line 172: 'weaponTank1' -> "weaponTank1"
+Converted string - line 173: 'weapon5' -> "weapon5"
+Converted string - line 173: 'subTank1' -> "subTank1"
+Converted string - line 173: 'weaponTank1' -> "weaponTank1"
+Converted string - line 174: 'weapon6' -> "weapon6"
+Converted string - line 174: 'subTank1' -> "subTank1"
+Converted string - line 174: 'weaponTank1' -> "weaponTank1"
+Converted string - line 175: 'weapon7' -> "weapon7"
+Converted string - line 175: 'subTank1' -> "subTank1"
+Converted string - line 175: 'weaponTank1' -> "weaponTank1"
+Converted string - line 176: 'weapon8' -> "weapon8"
+Converted string - line 176: 'subTank1' -> "subTank1"
+Converted string - line 176: 'weaponTank1' -> "weaponTank1"
+Converted string - line 177: 'exit' -> "exit"
+Converted string - line 177: 'subTank1' -> "subTank1"
+Converted string - line 177: 'weaponTank1' -> "weaponTank1"
+Converted string - line 178: 'subTank1' -> "subTank1"
+Converted string - line 178: 'subTank2' -> "subTank2"
+Converted string - line 179: 'subTank2' -> "subTank2"
+Converted string - line 179: 'subTank3' -> "subTank3"
+Converted string - line 180: 'subTank3' -> "subTank3"
+Converted string - line 180: 'subTank4' -> "subTank4"
+Converted string - line 181: 'subTank4' -> "subTank4"
+Converted string - line 181: 'weaponTank1' -> "weaponTank1"
+Converted string - line 182: 'weaponTank1' -> "weaponTank1"
+Converted string - line 182: 'weaponTank3' -> "weaponTank3"
+Converted string - line 182: 'subTank1' -> "subTank1"
+Converted string - line 183: 'weaponTank2' -> "weaponTank2"
+Converted string - line 183: 'subTank1' -> "subTank1"
+Converted string - line 183: 'weaponTank1' -> "weaponTank1"
+Converted string - line 189: 'subTank1' -> "subTank1"
+Converted string - line 189: 'x-buster' -> "x-buster"
+Converted string - line 190: 'subTank2' -> "subTank2"
+Converted string - line 190: 'subTank1' -> "subTank1"
+Converted string - line 191: 'subTank3' -> "subTank3"
+Converted string - line 191: 'subTank2' -> "subTank2"
+Converted string - line 192: 'subTank4' -> "subTank4"
+Converted string - line 192: 'subTank3' -> "subTank3"
+Converted string - line 193: 'weaponTank1' -> "weaponTank1"
+Converted string - line 193: 'subTank4' -> "subTank4"
+Converted string - line 193: 'subTank3' -> "subTank3"
+Converted string - line 193: 'subTank2' -> "subTank2"
+Converted string - line 193: 'subTank1' -> "subTank1"
+Converted string - line 193: 'x-buster' -> "x-buster"
+Converted string - line 194: 'weaponTank2' -> "weaponTank2"
+Converted string - line 194: 'weaponTank1' -> "weaponTank1"
+
+Converting GML script: ${project_dir}\objects\objPauseController\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Sprite Position
+
+Converting GML script: ${project_dir}\objects\objPauseDraw\Create_0.gml
+Converted description /// @description  SUBTANKS E WEAPONTANKS
+
+Converting GML script: ${project_dir}\objects\objPauseDraw\Step_0.gml
+Converted description /// @description  ATIVIDADES DE TODOS OS SUBTANKS
+
+Converting GML script: ${project_dir}\objects\objPauseDraw\Draw_0.gml
+Converted builtin - line 227: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 228: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted string - line 40: 'subTank1' -> "subTank1"
+Converted string - line 42: 'subTank1' -> "subTank1"
+Converted string - line 47: 'subTank2' -> "subTank2"
+Converted string - line 49: 'subTank2' -> "subTank2"
+Converted string - line 54: 'subTank3' -> "subTank3"
+Converted string - line 56: 'subTank3' -> "subTank3"
+Converted string - line 61: 'subTank4' -> "subTank4"
+Converted string - line 63: 'subTank4' -> "subTank4"
+Converted string - line 68: 'subTank5' -> "subTank5"
+Converted string - line 70: 'subTank5' -> "subTank5"
+Converted string - line 104: 'weapTank1' -> "weapTank1"
+Converted string - line 106: 'weapTank1' -> "weapTank1"
+Converted string - line 111: 'weapTank2' -> "weapTank2"
+Converted string - line 113: 'weapTank2' -> "weapTank2"
+Converted string - line 118: 'weapTank3' -> "weapTank3"
+Converted string - line 120: 'weapTank3' -> "weapTank3"
+Converted string - line 125: 'weapTank4' -> "weapTank4"
+Converted string - line 127: 'weapTank4' -> "weapTank4"
+Converted string - line 272: 'x-buster' -> "x-buster"
+Converted string - line 274: 'x-buster' -> "x-buster"
+Converted string - line 277: 'weapon1' -> "weapon1"
+Converted string - line 279: 'weapon1' -> "weapon1"
+Converted string - line 282: 'weapon2' -> "weapon2"
+Converted string - line 284: 'weapon1' -> "weapon1"
+Converted string - line 287: 'weapon3' -> "weapon3"
+Converted string - line 289: 'weapon1' -> "weapon1"
+Converted string - line 292: 'weapon4' -> "weapon4"
+Converted string - line 294: 'weapon1' -> "weapon1"
+Converted string - line 297: 'weapon5' -> "weapon5"
+Converted string - line 299: 'weapon1' -> "weapon1"
+Converted string - line 302: 'weapon6' -> "weapon6"
+Converted string - line 304: 'weapon6' -> "weapon6"
+Converted string - line 308: 'weapon7' -> "weapon7"
+Converted string - line 310: 'weapon7' -> "weapon7"
+Converted string - line 314: 'weapon8' -> "weapon8"
+Converted string - line 316: 'weapon8' -> "weapon8"
+Converted string - line 319: 'exit' -> "exit"
+Converted string - line 321: 'exit' -> "exit"
+
+Converting GML script: ${project_dir}\objects\objTimerControl\Create_0.gml
+Converted description /// @description  Init Variables
+
+Converting GML script: ${project_dir}\objects\objTimerControl\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description  TIMER // RELOGIO
+
+Converting GML script: ${project_dir}\objects\objStartVariables\Other_4.gml
+Converted description /// @description  VARIAVEIS SUBTANKS
+
+Converting GML script: ${project_dir}\objects\objVersusMenuEnd\Draw_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  MENU FIM DE LUTA / WINNER TEXT
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_capcom' - setting to default audio group
+Missing audiogroup for sound: 'sndBossesExplosions' - setting to default audio group
+Missing audiogroup for sound: 'sndEnemyDeath' - setting to default audio group
+Missing audiogroup for sound: 'sndEnemyDamage' - setting to default audio group
+Missing audiogroup for sound: 'sndEnemyShield' - setting to default audio group
+Missing audiogroup for sound: 'snd_charge' - setting to default audio group
+Missing audiogroup for sound: 'snd_charge_loop' - setting to default audio group
+Missing audiogroup for sound: 'snd_shot_basic' - setting to default audio group
+Missing audiogroup for sound: 'snd_shot_medio' - setting to default audio group
+Missing audiogroup for sound: 'snd_shot_big' - setting to default audio group
+Missing audiogroup for sound: 'snd_shot_gran' - setting to default audio group
+Missing audiogroup for sound: 'snd_axl_shot' - setting to default audio group
+Missing audiogroup for sound: 'snd_gate' - setting to default audio group
+Missing audiogroup for sound: 'snd_ready' - setting to default audio group
+Missing audiogroup for sound: 'sndWaterEffect' - setting to default audio group
+Missing audiogroup for sound: 'snd_selection' - setting to default audio group
+Missing audiogroup for sound: 'snd_error' - setting to default audio group
+Missing audiogroup for sound: 'snd_heart' - setting to default audio group
+Missing audiogroup for sound: 'extra_life' - setting to default audio group
+Missing audiogroup for sound: 'snd_new' - setting to default audio group
+Missing audiogroup for sound: 'snd_energytank' - setting to default audio group
+Missing audiogroup for sound: 'addup' - setting to default audio group
+Missing audiogroup for sound: 'snd_tank' - setting to default audio group
+Missing audiogroup for sound: 'snd_energy' - setting to default audio group
+Missing audiogroup for sound: 'snd_dash' - setting to default audio group
+Missing audiogroup for sound: 'snd_jump' - setting to default audio group
+Missing audiogroup for sound: 'snd_jump_end' - setting to default audio group
+Missing audiogroup for sound: 'snd_hadouken' - setting to default audio group
+Missing audiogroup for sound: 'snd_strike' - setting to default audio group
+Missing audiogroup for sound: 'snd_scroling' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber1a' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber2' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber_hit1' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber_hit2' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber_hit3' - setting to default audio group
+Missing audiogroup for sound: 'snd_dano' - setting to default audio group
+Missing audiogroup for sound: 'snd_victory' - setting to default audio group
+Missing audiogroup for sound: 'xteleportin' - setting to default audio group
+Missing audiogroup for sound: 'snd_hurt' - setting to default audio group
+Missing audiogroup for sound: 'snd_death' - setting to default audio group
+Missing audiogroup for sound: 'snd_wallgrab' - setting to default audio group
+Missing audiogroup for sound: 'snd_walljump' - setting to default audio group
+Missing audiogroup for sound: 'snd_saber1' - setting to default audio group
+Missing audiogroup for sound: 'opt_select' - setting to default audio group
+Missing audiogroup for sound: 'snd_intro' - setting to default audio group
+Missing audiogroup for sound: 'x_shot3' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_bounce.gml'
+Added compatibility script 'action/action_color.gml'
+Added compatibility script 'action/action_create_object.gml'
+Added compatibility script 'action/action_current_room.gml'
+Added compatibility script 'action/action_draw_rectangle.gml'
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move.gml'
+Added compatibility script 'action/action_move_contact.gml'
+Added compatibility script 'action/action_move_point.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'action/action_set_hspeed.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'action/action_set_vspeed.gml'
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_exists.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'sound/sound_volume.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

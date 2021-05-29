@@ -1,0 +1,3 @@
+isAtk=true;
+inActive=false;
+
